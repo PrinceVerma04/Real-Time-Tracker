@@ -1,14 +1,21 @@
 {
-  "name": "realtime_tracker",
+  "name": "real-time-tracker",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "realtime",
+    "socketio",
+    "leaflet",
+    "geolocation",
+    "tracker"
+  ],
+  "author": "Prince Verma",
+  "license": "MIT",
+  "description": "Real-time location tracker with Socket.io, Leaflet and session-based sharing.",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.2",
